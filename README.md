@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet est un test pour la version 2 de Plume, développé par Alexis Gontier. Il utilise Tailwind CSS pour la gestion des styles.
+Ce projet utilise Tailwind CSS pour la gestion des styles.
 
 ## Installation
 
