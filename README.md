@@ -15,7 +15,7 @@ Pour installer et configurer le projet sur votre machine locale, suivez ces éta
 
 2. **Accédez au répertoire du projet :**
     ```bash
-    cd plume-test-v2-alexis-gontier
+    cd Test-plume-v2
     ```
 
 3. **Installez les dépendances :**
