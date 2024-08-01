@@ -10,7 +10,7 @@ Pour installer et configurer le projet sur votre machine locale, suivez ces éta
 
 1. **Clonez le dépôt :**
     ```bash
-    git clone <URL_DU_DEPOT>
+    git clone Test-plume-v2
     ```
 
 2. **Accédez au répertoire du projet :**
