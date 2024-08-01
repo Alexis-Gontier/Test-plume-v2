@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Plume</title>
+
+    <!-- FAVICON -->
+    <!-- <link rel="icon" href="favicon.ico" /> -->
+
+    <!-- FONT-AWESOME -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header class="border-b border-gray-300">
+        <div class="max-w-5xl mx-auto h-full flex justify-between items-center">
+
+            <div class="h-full w-1/4 py-10 px-5 flex flex-col justify-center md:items-start items-center gap-5 border-t-8 border-b-8 border-red-600 ">
+                <div class="flex gap-1">
+                    <img
+                        src="./assets/img/logo.png"
+                        alt="logo"
+                        class="w-2/5 h-auto"
+                    >
+                    <p class="text-3xl font-bold">
+                        Heure
+                        <br />
+                        Exquise
+                        <span class="text-red-600">
+                            !
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="h-full md-w-3/4 flex flex-col md:flex-row justify-center items-center gap-5 md:gap-24 ">
+                <div class="hidden md:flex flex-col justify-center items-end gap-10">
+                    <div class="flex justify-end items-center gap-5">
+                        <a href="#" class="text-sm font-semibold capitalize">
+                            à propos
+                        </a>
+                        <div class="w-px h-4 bg-gray-300"></div>
+                        <a href="#" class="text-sm font-semibold capitalize">
+                            actualités
+                        </a>
+                        <div class="w-px h-4 bg-gray-300"></div>
+                        <a href="#" class="text-sm font-semibold capitalize">
+                            partenaires
+                        </a>
+                        <div class="w-px h-4 bg-gray-300"></div>
+                        <a href="#" class="text-sm font-semibold capitalize">
+                            newsletter
+                        </a>
+                        <div class="w-px h-4 bg-gray-300"></div>
+                        <a href="#" class="text-sm font-semibold capitalize">
+                            contact
+                        </a>
+                        <div class="text-xl flex gap-2">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="flex justify-end items-center gap-5">
+                        <a href="#" class="text-xl font-semibold capitalize">
+                            agenda
+                            <span class="text-red-600">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </a>
+                        <a href="#" class="text-xl font-semibold capitalize">
+                            catalogue
+                            <span class="text-red-600">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </a>
+                        <a href="#" class="text-xl font-semibold capitalize">
+                            services
+                            <span class="text-red-600">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </a>
+                        <a href="#" class="text-xl font-semibold capitalize">
+                            activités
+                            <span class="text-red-600">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                        </a>
+                        <a href="#" class="text-2xl">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <a href="#" class="py-3 px-5 bg-red-600 text-white rounded text-xl">
+                            <i class="fa-solid fa-ticket"></i>
+                            Builleterie
+                        </a>
+                    </div>
+                </div>
+
+                <div class="md:hidden flex justify-center mr-10">
+                    <p class="text-2xl">
+                        <i class="fa-solid fa-bars"></i>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- FIL D'ARIANE -->
+
+    <div class="bg-gray-100 py-3">
+        <div class="max-w-5xl mx-auto flex justify-start items-center gap-3">
+            <a href="#" class="text-xs underline">
+                Accueil
+            </a>
+            <p class="text-sm text-gray-300">
+                <i class="fa-solid fa-chevron-right"></i>
+            </p>
+            <a href="#" class="text-xs underline">
+                Actualités
+            </a>
+            <p class="text-sm text-gray-300">
+                <i class="fa-solid fa-chevron-right"></i>
+            </p>
+            <a href="#" class="text-xs">
+                Ouverture du Grand cycle Jules Vernes
+            </a>
+        </div>
+    </div>
+
+    <main class="max-w-5xl mx-auto px-5 py-20">
+
+        <!-- HERO SECTION -->
+
+        <div class="flex flex-col gap-6">
+            <h1 class="text-5xl font-bold text-center">
+                Ouverture du grand cycle de  Jules Verne
+            </h1>
+
+            <div class="flex flex-wrap justify-center items-center gap-3">
+                <p class="bg-gray-200 rounded-full py-1 px-3 text-sm font-semibold">
+                    <i class="fa-solid fa-sign-hanging"></i>
+                    Cadre d'organisation
+                </p>
+                <p class="bg-gray-200 rounded-full py-1 px-3 text-sm font-semibold">
+                    <i class="fa-solid fa-quote-left"></i>
+                    Titre du cycle
+                </p>
+                <p class="bg-gray-200 rounded-full py-1 px-3 text-sm font-semibold">
+                    <i class="fa-solid fa-tag"></i>
+                    Thématique
+                </p>
+            </div>
+
+            <p class="max-w-3xl m-auto text-xl font-semibold">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique eveniet necessitatibus quaerat repellat incidunt debitis dolores saepe earum nihil illo blanditiis nam ipsam, dolorem suscipit nesciunt consectetur odit libero voluptatem qui cumque hic? Quaerat ullam hic itaque perferendis eaque ratione?
+            </p>
+        </div>
+
+        <!-- IMAGE 1 -->
+
+        <img
+            src="./assets/img/img1.png"
+            alt="trois personnes devant un train"
+            class="w-full h-auto py-10"
+        >
+
+        <!-- TEXTE 1 -->
+
+        <div class="max-w-3xl m-auto">
+            <h3 class="text-3xl font-bold mb-5">
+                Un cycle en 80 jours
+            </h3>
+            <p class="text-base">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, quae! Temporibus ea quisquam vero obcaecati qui ratione magnam natus. Officia impedit et non distinctio aliquam nesciunt voluptatibus. Blanditiis veritatis quod optio molestias, vel consectetur et mollitia asperiores culpa consequuntur minima recusandae. Repudiandae laborum eveniet libero dolores voluptatum odit nesciunt tempora.
+            </p>
+        </div>
+
+        <!-- CARTE 1 -->
+
+        <div class="bg-gray-900 p-10 max-w-4xl m-auto my-10">
+            <h3 class="text-3xl font-bold mb-5 text-white">
+                Jules Verne : le marqueur de son temps
+            </h3>
+            <div class="w-10 h-px bg-white mb-4"></div>
+            <p class="text-base text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit et nemo adipisci cum delectus excepturi amet aut voluptatibus maiores, tenetur unde sapiente nihil possimus? Voluptate, facilis praesentium libero ratione tenetur id delectus ullam quaerat eaque earum sed veniam. Adipisci vitae natus quo dicta quis est expedita pariatur aperiam esse cupiditate!
+            </p>
+        </div>
+
+        <!-- TEXTE + IMAGE 1 -->
+
+        <div class="">
+            <h3 class="text-3xl font-bold mb-5">
+                Focus sur les fonds marins
+            </h3>
+            <div class="flex flex-col justify-center items-start gap-5 md:flex-row">
+                <div class="md:w-1/2">
+                    <p class="text-base font-normal">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda porro, repellendus fuga nemo consequatur minima quo perspiciatis molestias, illo officia ratione voluptatem facere iusto consequuntur delectus, unde nisi sed vero.
+                        <ul class="list-disc pl-8">
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="md:w-1/2">
+                    <img
+                        src="./assets/img/sous-marin.png"
+                        alt="ghravure de sous-marin"
+                        class="w-full h-auto md:rounded-xl"
+                    >
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full h-px bg-gray-300 my-20"></div>
+
+        <!-- CARTE 2 -->
+
+        <div class="">
+            <h2 class="text-5xl font-bold mb-5">
+                A retrouver dans un cycle Heure Exquise !
+            </h2>
+            <div class="flex flex-col justify-center items-start gap-1 md:flex-row border border-gray-300">
+                <div class="lg:w-5/12">
+                    <img
+                    src="./assets/img/img2.png"
+                    alt="image d'un homme qui pointe le doigt"
+                    class="w-auto h-auto"
+                    >
+                </div>
+                <div class="lg:w-7/12 my-auto p-5 flex flex-col justify-center items-start gap-3">
+                    <div class="flex flex-wrap justify-start items-center gap-3">
+                        <p class="bg-gray-200 rounded-full py-1 px-3 text-sm font-semibold">
+                            <i class="fa-solid fa-sign-hanging"></i>
+                            Cadre d'organisation
+                        </p>
+                        <p class="bg-gray-200 rounded-full py-1 px-3 text-sm font-semibold">
+                            <i class="fa-solid fa-quote-left"></i>
+                            Titre du cycle
+                        </p>
+                        <p class="bg-gray-200 rounded-full py-1 px-3 text-sm font-semibold">
+                            <i class="fa-solid fa-tag"></i>
+                            Thématique
+                        </p>
+                        <p class="bg-gray-200 rounded-full py-1 px-3 text-sm font-semibold">
+                            <i class="fa-solid fa-tag"></i>
+                            Thématique
+                        </p>
+                    </div>
+                    <h4 class="text-2xl font-bold">
+                        Cycle : Dupieux, du beat au Bitrate
+                    </h4>
+                    <p class="text-base font-normal">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda porro, repellendus fuga nemo consequatur minima quo perspiciatis molestias, illo officia ratione voluptatem facere iusto consequuntur delectus, unde nisi sed vero.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full h-px bg-gray-300 my-20"></div>
+
+        <!--  -->
+
+        <div class="flex justify-between items-center">
+            <p class="text-base">
+                Dernière mise à jour : le 12/12/2023
+            </p>
+            <p class="text-base font-semibold">
+                Partage sur :
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </p>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="bg-gray-50 border border-t-gray-300">
+        <div class="max-w-5xl mx-auto h-full flex flex-col-reverse md:flex-row justify-between items-center">
+
+            <div class="h-full md:w-1/4 w-full px-5 flex flex-col justify-center md:items-start items-center gap-5 border-t-8 border-b-8 border-red-600 ">
+                <div class="flex gap-1">
+                    <img
+                        src="./assets/img/logo.png"
+                        alt="logo"
+                        class="w-2/5 h-auto"
+                    >
+                    <p class="text-3xl font-bold">
+                        Heure
+                        <br />
+                        Exquise
+                        <span class="text-red-600">
+                            !
+                        </span>
+                    </p>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <div>
+                        <p class="font-semibold">
+                            8 rue Armand Carrel
+                            <br />
+                            59000 Lille - France
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-semibold">Tel : 00 00 00 00 00</p>
+                        <p class="font-semibold">E-mail : Lorem, ipsum.</p>
+                    </div>
+                    <div>
+                        <p class="text-2xl">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="h-full md-w-3/4 flex flex-col md:flex-row justify-center items-start gap-5 md:gap-24">
+                <div>
+                    <ul class="text-normal font-semibold">
+                        <li>
+                            Lorem.
+                        </li>
+                        <li>
+                            Lorem.
+                        </li>
+                        <li>
+                            Lorem.
+                        </li>
+                        <li>
+                            Lorem.
+                        </li>
+                        <li>
+                            Lorem.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="text-normal font-semibold">
+                        <li>
+                            Lorem.
+                        </li>
+                        <li>
+                            Lorem.
+                        </li>
+                        <li>
+                            Lorem.
+                        </li>
+                        <li>
+                            Lorem.
+                        </li>
+                        <li>
+                            Lorem.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="text-normal font-semibold">
+                        <li>
+                            Lorem.
+                        </li>
+                        <li>
+                            Lorem.
+                        </li>
+                        <li>
+                            Lorem.
+                        </li>
+                        <li>
+                            Lorem.
+                        </li>
+                        <li>
+                            Lorem.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="text-normal font-semibold">
+                        <li>
+                            Lorem.
+                        </li>
+                        <li>
+                            Lorem.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
